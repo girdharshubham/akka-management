@@ -37,6 +37,15 @@ object Dependencies {
     "org.scalatest" %% "scalatest" % ScalaTestVersion % Test
   )
 
+  val DiscoveryAzureApi = Seq(
+    "com.typesafe.akka" %% "akka-actor" % AkkaVersion,
+    "com.typesafe.akka" %% "akka-discovery" % AkkaVersion,
+    "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
+    "com.typesafe.akka" %% "akka-http" % AkkaHttpVersion,
+    "com.typesafe.akka" %% "akka-http-spray-json" % AkkaHttpVersion,
+    "org.scalatest" %% "scalatest" % ScalaTestVersion % Test
+  )
+
   val DiscoveryMarathonApi = Seq(
     "com.typesafe.akka" %% "akka-actor" % AkkaVersion,
     "com.typesafe.akka" %% "akka-discovery" % AkkaVersion,
